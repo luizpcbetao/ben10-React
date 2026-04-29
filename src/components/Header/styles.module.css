@@ -1,0 +1,46 @@
+.header {
+  width: min(1040px, calc(100% - 32px));
+  margin: 0 auto;
+  padding: 18px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.logo,
+.menu button {
+  border: 0;
+  color: var(--text);
+  background: transparent;
+}
+
+.logo {
+  font-size: 1.25rem;
+  font-weight: 800;
+}
+
+.menu {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+
+.menu button {
+  padding: 8px 12px;
+  border-radius: 999px;
+}
+
+.menu button:hover,
+.menu .active {
+  color: #071007;
+  background: var(--green);
+}
+
+@media (max-width: 560px) {
+  .header {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+}

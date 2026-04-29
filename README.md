@@ -1,6 +1,9 @@
 # Ben10
 
-Projeto React criado com Vite.
+Quiz simples em React sobre aliens do Ben 10.
+
+O projeto usa roteamento simples com History API e busca imagens na API publica
+do Ben 10 Wiki/Fandom.
 
 ## Scripts
 
